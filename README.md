@@ -1,0 +1,2 @@
+# Java Loop Bug
+This repository demonstrates a common yet easily missed bug in Java programming: premature loop termination due to improper placement of a `break` statement. The `bug.java` file contains the buggy code, while `bugSolution.java` provides the corrected version. The issue stems from an `if` condition inside a `while` loop. This condition checks a value and prematurely breaks the loop if that value is met. This behavior might be unexpected. The solution showcases a more robust way to control loop execution.
